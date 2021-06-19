@@ -2,14 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title></title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:display=swap" rel="stylesheet">
     <link href="./public/style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <div id="root"></div>
-
+    <h1>ToDoList</h1>
+    <div class="flex-wrapper">
+        <div class="add-todo-wrapper">
+          <div class="input-wrapper">
+            <input type="text" id="description-task"> <!--user type any task in input-->
+          </div>
+          <div class="button-wrapper">
+            <button id="add-task-btn">Add</button> <!--user add any task in the list-->
+          </div>
+        </div>
+        <h2>Tasks for today:</h2>
+        <div class="todos-wrapper"></div> <!--any task goes here-->
+    </div>
     <script type="module" src="./src/init/index.js"></script>
   </body>
 </html>
