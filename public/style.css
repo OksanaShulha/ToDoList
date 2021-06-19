@@ -68,7 +68,7 @@ background-color: darkgrey;
 opacity: 0.5;
 }
 
-.todo-item.delition {
+.todo-item.deleting {
     animation: opacity 1s ease-in-out;
 }
 
