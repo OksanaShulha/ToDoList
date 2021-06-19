@@ -16,8 +16,10 @@
 - init
   - [index.js](#srcinitindexjs)
 - listeners
+  - [listeners.js](#srclistenerslistenersjs)
 - logic
 - procedures
+  - [procedures.js](#srcproceduresproceduresjs)
 - [data.js](#srcdatajs)
 
 <!-- END TOC -->
@@ -48,6 +50,10 @@
 
 # /listeners
 
+<details><summary><a href="../src/listeners/listeners.js" id="srclistenerslistenersjs">src/listeners/listeners.js</a></summary>
+
+</details>
+
 ---
 
 [TOP](#DOCS)
@@ -63,6 +69,10 @@
 ---
 
 # /procedures
+
+<details><summary><a href="../src/procedures/procedures.js" id="srcproceduresproceduresjs">src/procedures/procedures.js</a></summary>
+
+</details>
 
 ---
 
